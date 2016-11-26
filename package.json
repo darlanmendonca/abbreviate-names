@@ -4,7 +4,7 @@
   "description": "Abreviate names",
   "main": "sources/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha sources/app.spec.js "
   },
   "keywords": [
     "string",
@@ -13,5 +13,9 @@
     "abbreviation"
   ],
   "author": "Darlan Mendonça <darlanmendonca@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }

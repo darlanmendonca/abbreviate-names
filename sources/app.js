@@ -16,6 +16,7 @@ function abbreviateLastname(string, lastnames=1) {
   function abbreviate(name) {
     const prepositions = [
       'de',
+      'do',
       'da',
       'dos',
       'das',

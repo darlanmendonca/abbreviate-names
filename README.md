@@ -4,6 +4,12 @@ Abbreviate the lastnames, except the last:
 'George Raymond Richard Martin' => 'George R. R. Martin'
 ```
 
+### Install
+
+```sh
+npm i abbreviate-lastnames
+```
+
 ### Usage
 
 Just import the module, and use their like a function

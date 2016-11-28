@@ -2,12 +2,16 @@ module.exports = abbreviateName
 
 function abbreviateName(string, lastnames=1) {
   lastnames = lastnames + 1
-
   const names = string.trim().split(' ');
-  const substring = names.splice(1, names.length - lastnames).join(' ')
-  const abbreviation = substring.split(' ').map(abbreviate).join(' ')
 
-  return string.replace(substring, abbreviation)
+  if (names.length > 2) {
+    const substring = names.splice(1, names.length - lastnames).join(' ')
+    const abbreviation = substring.split(' ').map(abbreviate).join(' ')
+
+    return string.replace(substring, abbreviation)
+  } else {
+    return string
+  }
 
   function abbreviate(name) {
     const prepositions = [

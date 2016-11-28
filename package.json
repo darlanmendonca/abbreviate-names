@@ -4,7 +4,7 @@
   "description": "Abreviate names",
   "main": "sources/app.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha sources/app.spec.js "
+    "test": "./node_modules/mocha/bin/mocha sources/app.spec.js --bail"
   },
   "keywords": [
     "string",

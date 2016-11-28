@@ -3,7 +3,7 @@ const path = require('path')
 let lib = require('../package.json').main
 lib = require(path.resolve(__dirname, '..', lib))
 
-describe('abreviate-names', function() {
+describe('abbreviateLastname()', function() {
   it('be an function', () => {
     expect(lib).to.be.a('function')
   })

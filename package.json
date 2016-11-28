@@ -12,7 +12,7 @@
     "username",
     "abbreviation"
   ],
-  "author": "Darlan Mendonça <darlanmendonca@gmail.com>",
+  "author": "Darlan Mendonça <darlanmendonca@gmail.com> (darlanmendonca.github.io)",
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",

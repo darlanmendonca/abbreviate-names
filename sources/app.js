@@ -1,8 +1,8 @@
-module.exports = abbreviateLastname
+module.exports = abbreviateLastnames
 
-function abbreviateLastname(string, lastnames=1) {
+function abbreviateLastnames(string, lastnames=1) {
   lastnames = lastnames + 1
-  const names = string.trim().split(' ');
+  const names = string.trim().replace(/[\s]{1,}/g, ' ').split(' ');
 
   if (names.length > 2) {
     const substring = names.splice(1, names.length - lastnames).join(' ')

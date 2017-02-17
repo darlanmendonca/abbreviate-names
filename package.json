@@ -1,6 +1,6 @@
 {
   "name": "abbreviate-name",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Abreviate names",
   "main": "sources/app.js",
   "scripts": {
@@ -12,6 +12,13 @@
     "username",
     "abbreviation"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darlanmendonca/abbreviate-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/darlanmendonca/abbreviate-name/issues"
+  },
   "author": "Darlan Mendonça <darlanmendonca@gmail.com> (darlanmendonca.github.io)",
   "license": "MIT",
   "devDependencies": {
